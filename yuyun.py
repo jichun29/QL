@@ -10,6 +10,8 @@
 yyqd 账户与密码用&隔开，多账户用#隔开
 VERIFY_TOKEN 写滑块的token
 定时：建议每天执行一次
+cron: 5 8 * * *
+const $ = new Env("雨云自动签到");
 """
 
 import requests, json, os, time, random
