@@ -1,3 +1,6 @@
+# const $ = new Env('农夫山泉有点甜')
+# corn "0 8,13,19 * * *"
+
 import requests
 import time
 import re
