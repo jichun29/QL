@@ -4,7 +4,7 @@
 # https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat
 # https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app
 # 每天跑一到两次就行
-# corn "0 8,20 * * *"
+# corn "0 10,15,22 * * *"
 import hashlib
 import json
 import os
