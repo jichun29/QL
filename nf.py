@@ -1,5 +1,10 @@
-# const $ = new Env('农夫山泉有点甜')
-# corn "0 8,13,19 * * *"
+const $ = new Env('农夫山泉有点甜')
+corn "0 8,13,19 * * *"
+#支持多账号
+#支持消息推送
+#支持自定义区域位置
+#环境变量nongfu，格式为：user1&apitoken1#user2&apitoken2
+#抓小jmhd8.com域名下的：apitoken
 
 import requests
 import time
