@@ -1,3 +1,7 @@
+
+# const $ = new Env('瑞树')
+# corn "0 8,20 * * *"
+
 import os
 import ssl
 import time
