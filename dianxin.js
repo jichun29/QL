@@ -1,5 +1,5 @@
-# const $ = new Env('z中国电信')
-# corn "5 9,18 * * *"
+const $ = new Env('中国电信');
+corn "5 9,18 * * *"
 
 //变量名chinaTelecomAccount
 //格式：手机号#密码。多号换行。
