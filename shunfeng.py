@@ -1,10 +1,10 @@
 # 多号可以用@,&,换行分隔，变量名：sfsyUrl
-# const $ = new Env('顺丰速运')
+const $ = new Env('顺丰速运')
 # 打开小程序或APP-我的-积分, 捉以下几种url之一,把整个url放到变量 sfsyUrl 里,多账号换行分割
 # https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat
 # https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app
 # 每天跑一到两次就行
-# corn "0 10,15,22 * * *"
+corn "0 10,15,22 * * *"
 import hashlib
 import json
 import os
