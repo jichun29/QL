@@ -1,10 +1,12 @@
 '''
 微信小程序：杜蕾斯会员中心
-杜蕾斯 2.0.0
+杜蕾斯 2.0.1
 变量名 dls
 抓 vip.ixiliu.cn 域名中 access-token
 多账号使用&分割
 定时每天1次即可
+cron: 0 8 * * *
+const $ = new Env("杜蕾斯会员中心");
 '''
 import time
 import requests
