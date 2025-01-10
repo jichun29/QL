@@ -1,4 +1,4 @@
-# const $ = new Env('sendNotify')
+const $ = new Env('sendNotify')
 
 const querystring = require('node:querystring');
 const got = require('got');
